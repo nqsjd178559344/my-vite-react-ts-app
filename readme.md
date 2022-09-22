@@ -2,7 +2,7 @@
    ```ts
    yarn create vite my-vite-react-ts-app --template react-ts
    ```
-2. 初始化 tailwindcss 并设置 autoprefixer
+2. 使用 tailwindcss 并设置 autoprefixer
 
    ```ts
    npm install -D tailwindcss postcss autoprefixer
@@ -19,12 +19,18 @@
    ]
    ```
 
-3. 安装并启动
+3. 使用 recoil
+
+   ```ts
+
+   ```
+
+4. 安装并启动
 
    ```ts
    yarn
    yarn dev
    ```
 
-4. extra
+5. extra
    1. 构建时导入 postcss-import
