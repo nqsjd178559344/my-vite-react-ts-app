@@ -2,8 +2,8 @@ import React from "react";
 
 export default React.memo(function App() {
   return (
-    <div>
-      <div className="flex w-[200px] h-[200px] bg-[pink]">1111</div>
+    <div className="flex flex-col min-w-[200px] min-h-[200px] bg-[pink] [&_div]:text-pink-700">
+      1111
     </div>
   );
 });
