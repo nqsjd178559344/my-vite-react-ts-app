@@ -32,12 +32,18 @@
      npm init @eslint/config
    ```
 
-4. 安装并启动
+5. 配置 code-workspace 文件
+
+   1. 文件 -> 将工作区另存为: 生成默认的 .code-workspace 文件
+   2. 设置 -> 搜 Code Actions On Save , 点击 在 setting.json 中编辑, 后添加 organizeImports
+   3. 设置 -> 搜 formatOnSave 并勾选
+
+6. 安装并启动
 
    ```ts
    yarn
    yarn dev
    ```
 
-5. extra
-   1. 构建时导入 postcss-import
+7. extra
+   1. 构建时导入: postcss-import
