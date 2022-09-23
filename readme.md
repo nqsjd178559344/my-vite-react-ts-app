@@ -22,7 +22,10 @@
 3. 使用 recoil
 
    ```ts
+4. 配置 eslint
 
+   ```ts
+     npm init @eslint/config
    ```
 
 4. 安装并启动

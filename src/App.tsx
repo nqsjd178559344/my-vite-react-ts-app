@@ -4,6 +4,7 @@ import { aaaState } from "./shared";
 
 export default React.memo(function App() {
   // 测试 eslint
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const a = useCallback((item: { aaa?: string; bbb: number }): string => {
     return item.aaa ?? item.bbb.toString();
   }, []);
