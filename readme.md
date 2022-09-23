@@ -22,6 +22,10 @@
 3. 使用 recoil
 
    ```ts
+      npm install -D recoil
+      // 修改main文件使得 RecoilRoot 放于 App 外
+   ```
+
 4. 配置 eslint
 
    ```ts
