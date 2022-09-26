@@ -45,5 +45,7 @@
    yarn dev
    ```
 
-7. extra
+7. tsconfig.json 配置: https://www.typescriptlang.org/zh/tsconfig#extends
+
+8. extra
    1. 构建时导入: postcss-import
